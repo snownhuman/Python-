@@ -2,8 +2,8 @@ import requests
 from lxml import etree
 import re
 datas={
-    "email":"2494665683@qq.com",
-    "password":"18149051566Msc",
+    "email":"@qq.com",
+    "password":"",
     '_token':'',
 }
 header={
@@ -28,4 +28,3 @@ for i in number_list:
     a="".join(i.split())
     b=b+int(a)
 print(b)
-#E:\python\pac_test\Wanzhandenglu.py
