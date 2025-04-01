@@ -8,8 +8,8 @@ old_url='http://glidedsky.com/login'
 session=requests.Session()
 datas={
     '_token': '',
-    'email': '2494665683@qq.com',
-    'password': '18149051566Msc'
+    'email': '',
+    'password': ''
 }
 login_page_text=session.get(url=old_url,headers=headers).text
 zhengze=r'<meta name="csrf-token" content="(.*?)">'
